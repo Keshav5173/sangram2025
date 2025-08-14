@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.container-segment {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.segment {
+  display: flex;
+  gap: 0.25em;
+}
+
+.segment-title {
+  font-size: 1.25rem;
+  color: #ffeb3b; 
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.flip-card {
+  display: inline-flex;
+  width: 80px; /* Adjust card size */
+  height: 120px;
+  color: black;
+  background-color: #ffeb3b;
+  font-size: 3rem; /* Adjust font size */
+  text-align: center;
+  line-height: 120px; /* Align text vertically */
+  border-radius: 0.5em;
+}
+
+/* Removed all animation-related CSS */
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width:576px)
+{
+  .container
+  {
+    height: 40vh;
+    width: 80vw;
+    /* font-size: xx-large; */
+    gap: 0.45em;
+    flex-direction: column;
+  }
+  .flip-card
+  {
+    font-size: x-large;
+    height: 60px;
+    width: 40px;
+    font-size: small;
+  }
+}
+@media only screen and (max-width:768px)
+{
+  .container
+  {
+    height: 45vh;
+    width: 100vw;
+    /* font-size: 42px; */
+    font-size: large;
+    flex-direction: column;
+  }
+  .flip-card
+  {
+    font-size: xx-large;
+    height: 70px;
+    width: 10vw;
+  }
+}
