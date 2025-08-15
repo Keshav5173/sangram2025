@@ -46,7 +46,7 @@ const Gallery = () => {
             <motion.img  src={G2} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item"  style={{ "--position": 2 }}/>
             <motion.img  src={G3} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 3 }} />
             {/* <img  src="/gallery/G4.jpg" alt="" className="h-[18rem] w-96" /> */}
-            <motion.img  src="/gallery/G5.jpg" alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 4 }} />
+            <motion.img  src={G5} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 4 }} />
             {/* <img  src="/gallery/G6.jpg" alt="" className="h-[18rem] w-96" /> */}
             <motion.img src={G7} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 5 }} />
             <motion.img src={G8} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 6 }} />

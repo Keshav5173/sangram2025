@@ -50,9 +50,6 @@ const Navbar = () => {
           <NavLink to='/'>
             <img src={logo_white} className='xl:h-16 xl:w-16 h-16 w-16' />
           </NavLink>
-          <img src={uem_logo_white} className='xl:h-16 xl:w-25 h-16 w-16' />
-          <img src={iic_logo_white} className='xl:h-16 xl:w-32 h-16 w-16' />
-          <img src={nss_logo_white} className='xl:h-16 xl:w-20 h-16 w-16' />
         </div>
 
         <div className="flex w-full justify-evenly  md:text-xl">
@@ -90,7 +87,7 @@ const Navbar = () => {
       <div className='sm:hidden flex flex-1 justify-between gap-8 w-full items-center backdrop-blur-sm bg-white/10 ... '>
         <div className=''>
           <NavLink to='/'>
-            <img src='/logo.webp' className='h-16 w-16' />
+            <img src={logo_white} className='h-16 w-16' />
           </NavLink>
         </div>
         <img

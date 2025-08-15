@@ -11,6 +11,7 @@ import { useAnimationControls,useInView } from "framer-motion";
 import { useEffect,useRef, useState } from "react";
 import logo from  '../assets/logo.png'
 import Skeleton from "react-loading-skeleton";
+import { iic_logo_white, nss_logo_white, uem_logo_white } from "../assets";
 // import ThreeScene from "../components/football";
 const Home = () => {
     
@@ -67,9 +68,15 @@ const Home = () => {
                 <div className="w-full lg:w-1/2 h-1/2">
                     {!isSmall ? <ParticleSlider /> : <img src={logo} className="mx-auto mt-20 h-full sm:w-full" />}
                 </div>
-                {/* <div className="z-0 w-full lg:w-1/2 h-full sm:h-4">
-                    <ThreeScene />
-                </div> */}
+                <div className="z-0 w-full lg:w-1/2 max-h-screen flex flex-col items-center justify-center">
+                    <img src={uem_logo_white} alt="" className="w-1/3" />
+                    <div className="w-full flex justify-center gap-20">
+                        <img src={iic_logo_white} className="w-1/4" />
+                        <img src={nss_logo_white} className="w-1/5" />
+                    </div>
+                </div>
+
+
             </motion.div>
 
             <motion.div 
