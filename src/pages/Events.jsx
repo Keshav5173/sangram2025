@@ -13,6 +13,7 @@ export default function Event() {
           name={event.title}
           slogan={event.slogan}
           imageUrl={event.icon}
+          registerFormLink={event.onRegister}
         />
       ))}
     </div>

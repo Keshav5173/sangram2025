@@ -2,11 +2,11 @@ import { CardBody, CardContainer, CardItem } from "./3d-card";
 // import { BackgroundBeamsWithCollision } from "./background-beams-with-collision";
 // import Link from "next/link"; // Commented out if not needed
 
-export function ThreeDCardDemo({imageUrl,name,slogan,ruleBook}) {
+export function ThreeDCardDemo({imageUrl,name,slogan,registerFormLink}) {
   
   const handleRegisterClick = () => {
 
-    window.location.href = '/';
+    window.location.href = registerFormLink;
   };
   
   return (
@@ -31,14 +31,7 @@ export function ThreeDCardDemo({imageUrl,name,slogan,ruleBook}) {
             />
           </CardItem>
           <div className="flex justify-between items-center mt-20">
-            <CardItem
-              translateZ={20}
-              as={'a'}
-              href={ruleBook}
-              target="_blank"
-              className="px-2 py-2 rounded-xl text-s font-normal dark:text-white text-gray-100">
-              Rule Book →
-            </CardItem>
+            
             <CardItem
               translateZ={20}
               as="button"
