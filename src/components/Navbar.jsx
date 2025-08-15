@@ -1,14 +1,15 @@
+
 import { useEffect, useState, useRef } from 'react'
 import { NavLink } from 'react-router-dom'
 import { menu, close } from '../assets'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { logo_white, uem_logo_white, iic_logo_white, nss_logo_white } from '../assets'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   const [teamDropdown, setTeamDropdown] = useState(false)
   const dropdownRef = useRef(null)
-
   const navigate = useNavigate()
   const location = useLocation().pathname
   const handleLogout = () => {
@@ -16,6 +17,7 @@ const Navbar = () => {
     window.location.reload()
     window.location.href = '/login'
   }
+
 
   const token = sessionStorage.getItem('Token')
   const team_token = sessionStorage.getItem('team_token')
@@ -46,11 +48,11 @@ const Navbar = () => {
       >
         <div className='lg:w-1/2 md:mt-10 lg:mt-0 p-3 pt-10 hover:text-[#ffeb3b] flex justify-between'>
           <NavLink to='/'>
-            <img src='/logo_white.png' className='xl:h-16 xl:w-16 h-16 w-16' />
+            <img src={logo_white} className='xl:h-16 xl:w-16 h-16 w-16' />
           </NavLink>
-          <img src="/uem_logo_white.png" className='xl:h-16 xl:w-25 h-16 w-16' />
-          <img src="/iic_logo_white.png" className='xl:h-16 xl:w-32 h-16 w-16' />
-          <img src="/nss_logo_white.png" className='xl:h-16 xl:w-20 h-16 w-16' />
+          <img src={uem_logo_white} className='xl:h-16 xl:w-25 h-16 w-16' />
+          <img src={iic_logo_white} className='xl:h-16 xl:w-32 h-16 w-16' />
+          <img src={nss_logo_white} className='xl:h-16 xl:w-20 h-16 w-16' />
         </div>
 
         <div className="flex w-full justify-evenly  md:text-xl">

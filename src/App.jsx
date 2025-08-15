@@ -22,7 +22,7 @@ const App = () => {
         <Loader1/>
       </div> */}
       <div   ref={ref}   className="relative z-0 bg-black bg-cover bg-no-repeat bg-center overflow-x-hidden overflow-y-hidden">
-        <Router>
+        <Router basename="/sangram2025">
           <div className="">
             <Navbar />
 
