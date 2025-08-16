@@ -42,6 +42,10 @@ function Footer_1 () {
                 {'Sayan '}
                 <a href="tel:+91 62958267797">+91 62958267797</a>
             </li>
+            <li className="text-[#d1cbcb] hover:text-yellow-400 transition-colors duration-1000 ease-in-out">
+              {'Aashish'}
+              <a href="tel:+91 8797093015">+91 8797093015</a>
+            </li>
 
               </ul>
             </div>
@@ -53,15 +57,11 @@ function Footer_1 () {
         &copy; UEM Jaipur All rights reserved
         </div>
         <div className='flex w-2/5 md:w-1/5 sm:w-1/5 justify-around'>
-        <div className='w-6 m-2'>
-          <a href='/' target='none'> <img src={Llogo}alt="" /></a>
-          
+        <div className='w-8 m-2'>
+          <a href='https://www.instagram.com/sangram_uemj?igsh=MW9mZ2RseXE2Mjdpbg==' target='none'> <img src={InstaLogo} alt="" /></a>
         </div>
         <div className='w-8 m-2'>
-          <a href='/' target='none'> <img src={InstaLogo} alt="" /></a>
-        </div>
-        <div className='w-8 m-2'>
-          <a href='mailto:pr_varchas@iitj.ac.in' target='none'> <img src={mailLogo} alt="" /></a>
+          <a href='mailto:sportsfestuemj@gmail.com' target='none'> <img src={mailLogo} alt="" /></a>
         </div>
         </div>
       </div>

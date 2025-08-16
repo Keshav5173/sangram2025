@@ -54,6 +54,7 @@ import logo_white from "./logo_white.png"
 import uem_logo_white from "./uem_logo_white.png"
 import iic_logo_white from "./iic_logo_white.png"
 import nss_logo_white from "./nss_logo_white.png"
+import whatsappLogo from "./whatsappLogo.png"
 
 
 
@@ -115,4 +116,5 @@ export {
     iic_logo_white,
     uem_logo_white,
     nss_logo_white,
+    whatsappLogo,
 }

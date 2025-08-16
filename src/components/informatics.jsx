@@ -16,7 +16,7 @@ const Informatics = () =>
             <span>Past Year Metrics</span>
           </div>
           <div className="h-[30vh] md:h-[60vh] w-full flex flex-row items-center justify-evenly mt-2">
-            <CountUpCard name={"FootFall"} start={0} end={500} duration={5}  />      
+            <CountUpCard name={"FootFall"} start={0} end={700} duration={5}  />      
             <CountUpCard name={"Events"} start={0} end={20} duration={5}/>      
             <CountUpCard name={"Colleges"} start={0} end={3} duration={5}/>      
           </div>

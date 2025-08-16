@@ -56,7 +56,7 @@ const Navbar = () => {
           <motion.li
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.93 }}
-            className=' p-1 mt-2 hover:text-[#ffeb3b] navbar center-underline-hover'
+            className=' p-1 mt-2 hover:text-[#ffeb3b] navbar center-underline-hover text-3xl'
           >
             <NavLink id='events' to='/events'>
               Events
@@ -65,7 +65,7 @@ const Navbar = () => {
           <motion.li
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.93 }}
-            className='p-1 mt-2 hover:text-[#ffeb3b]  navbar center-underline-hover'
+            className='p-1 mt-2 hover:text-[#ffeb3b]  navbar center-underline-hover text-3xl'
           >
             
             <NavLink to='/team'>Team</NavLink>
