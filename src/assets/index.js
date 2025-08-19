@@ -77,7 +77,10 @@ import stuti from "./team/stuti.jpg"
 import sunanda from "./team/sunanda.jpg"
 import uttam from "./team/uttam.jpg"
 import yogesh from "./team/yogesh.jpg"
-
+import akshit from "./team/akshit.jpg"
+import khush from "./team/khush.jpg"
+import sahil from "./team/sahil.jpg"
+import rounak from "./team/rounak.jpg"
 
 
 
@@ -161,5 +164,9 @@ export {
     stuti,
     sunanda,
     uttam,
-    yogesh
+    yogesh,
+    akshit,
+    khush,
+    sahil,
+    rounak,
 }
