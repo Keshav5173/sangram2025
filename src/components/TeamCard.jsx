@@ -19,7 +19,7 @@ const AnimatedProfileCard = ({ imgPath, Name, Designation, instaLink, linkedIn }
         <h3 className="mb-1 text-2xl font-bold tracking-tight text-white">
           {Name}
         </h3>
-        <p>{Designation}</p>
+        <p className='font-bold'>{Designation}</p>
         <ul className="flex justify-center mt-4 space-x-4">
           <li>
             <a

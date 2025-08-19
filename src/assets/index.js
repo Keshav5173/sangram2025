@@ -57,6 +57,31 @@ import nss_logo_white from "./nss_logo_white.png"
 import whatsappLogo from "./whatsappLogo.png"
 
 
+import aastha from "./team/aastha.jpg"
+import anshika from "./team/anshika.jpg"
+import arpan from "./team/arpan.jpg"
+import ashish from "./team/ashish.jpg"
+import chetan from "./team/chetan.jpg"
+import ishika from "./team/ishika.jpg"
+import keshav from "./team/keshav.jpg"
+import rakesh from "./team/rakesh.jpg"
+import rakshit from "./team/rakshit.jpg"
+import ruchi from "./team/ruchi.jpg"
+import rupsha from "./team/rupsha.jpg"
+import sakshi from "./team/sakshi.jpg"
+import sayan from "./team/sayan.jpg"
+import sayatani from "./team/sayatani.jpg"
+import shruti from "./team/shruti.jpg"
+import shubham from "./team/shubham.jpg"
+import stuti from "./team/stuti.jpg"
+import sunanda from "./team/sunanda.jpg"
+import uttam from "./team/uttam.jpg"
+import yogesh from "./team/yogesh.jpg"
+
+
+
+
+
 
 
 
@@ -117,4 +142,24 @@ export {
     uem_logo_white,
     nss_logo_white,
     whatsappLogo,
+    aastha,
+    anshika,
+    arpan,
+    ashish,
+    chetan,
+    ishika,
+    keshav,
+    rakesh,
+    rakshit,
+    ruchi,
+    rupsha,
+    sakshi,
+    sayan,
+    sayatani,
+    shruti,
+    shubham,
+    stuti,
+    sunanda,
+    uttam,
+    yogesh
 }

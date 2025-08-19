@@ -27,6 +27,26 @@ import {
   table_tennis_duo,
   tug_of_war,
   throw_ball,
+  aastha,
+  anshika,
+  arpan,
+  ashish,
+  chetan,
+  ishika,
+  keshav,
+  rakesh,
+  ruchi,
+  rakshit,
+  rupsha,
+  sakshi,
+  sayan,
+  sayatani,
+  shruti,
+  shubham,
+  stuti,
+  sunanda,
+  uttam,
+  yogesh
 } from "../assets";
 
 // import cricket from "../assets/Sports"
@@ -201,26 +221,169 @@ const events = [
 
 ];
 
+const TeamData = [
+  {
+    id: "1",
+    Name: "Yogesh Tapadiya",
+    Designation: "Fest Chief",
+    instaLink: "https://www.instagram.com/kasamseyogestaparia?igsh=NXMzbTRha2JjaTZr",
+    linkedIn: "https://www.linkedin.com/in/yogesh-taparia-a99513282",
+    imgPath: yogesh
+  },
+  {
+    id: "2",
+    Name: "Keshav Bhardwaj",
+    Designation: "Technical Team",
+    instaLink: "#",
+    linkedIn: "https://www.linkedin.com/in/keshav-bhardwaj-369019287/",
+    imgPath: keshav
+  },
+  {
+    id: "3",
+    Name: "Sayan Mukherjee",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/sayan.nnnm?igsh=MThpdnVxaTN5cjJrag==",
+    linkedIn: "#",
+    imgPath: sayan
+  },
+  {
+    id: "4",
+    Name: "Shruti Agarwal",
+    Designation: "sports Coordinator",
+    instaLink: "https://www.instagram.com/shhrutiagrawal?igsh=MWVhd3llbzE1d2JqYQ==",
+    linkedIn: "https://www.linkedin.com/in/shruti-agarwal-96730a2a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: shruti
+  },
+  {
+    id: "5",
+    Name: "Sakshi Rani",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/sakshirani_9898?igsh=N3VpMHBmM3dhcnEy",
+    linkedIn: "https://www.linkedin.com/in/sakshi-rani-982a88327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: sakshi
+  },
+  {
+    id: "6",
+    Name: "Ruchi kumari",
+    Designation: "Sports Coordinatot",
+    instaLink: "https://www.instagram.com/ruchi2102._?utm_source=qr&igsh=MWRrZHI0bThlaHltZQ==",
+    linkedIn: "https://www.linkedin.com/in/ruchi-kumari-745a43329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: ruchi
+  },
+  {
+    id: "7",
+    Name: "Uttam Jangid",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/the_uttam_jangid?igsh=MWlmOWtwODBpMm44bw==",
+    linkedIn: "https://www.linkedin.com/in/uttam-jangid-33595a268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: uttam
+  },
+  {
+    id: "8",
+    Name: "Chetan Yadav",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/chet.an_05?igsh=NG9hYzJrc3cyNmcz",
+    linkedIn: "https://www.linkedin.com/in/chetan-yadav-b67173287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: chetan
+  },
+  {
+    id: "9",
+    Name: "Rakshit",
+    Designation: "Sports Coordinatot",
+    instaLink: "https://www.instagram.com/_arpan__pramanik_?utm_source=qr&igsh=MTcyNWVoanlqYnNqdQ==",
+    linkedIn: "#",
+    imgPath: rakshit
+  },
+  {
+    id: "10",
+    Name: "Arpan Pramanik",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/_arpan__pramanik_?utm_source=qr&igsh=MTcyNWVoanlqYnNqdQ==",
+    linkedIn: "#",
+    imgPath: arpan
+  },
+  {
+    id: "11",
+    Name: "Sayatani Dey",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/sanjh_baati26/",
+    linkedIn: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
+    imgPath: sayatani
+  },
+  {
+    id: "12",
+    Name: "Stuti Modak",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/_._stuti._?igsh=aHVxaW84cGk4aWRs",
+    linkedIn: "https://www.linkedin.com/in/stuti-modak-614584286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: stuti
+  },
+  {
+    id: "13",
+    Name: "Ishika Haldar",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/invalid_username.404/profilecard/?igsh=dW4xdDlpYzQyZzJ3",
+    linkedIn: "https://www.linkedin.com/in/ishika-haldar-b11300289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: ishika,
+  },
+  {
+    id: "14",
+    Name: "Shubham Maity",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/duftvonruhe_sm03?igsh=MXJiYWRyOW03YnpkdQ==",
+    linkedIn: "#",
+    imgPath: shubham,
+  },
+  {
+    id: "15",
+    Name: "Aastha Sinha",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/aasthasinha195",
+    linkedIn: "https://www.linkedin.com/in/aastha-sinha-21a4b5287",
+    imgPath: aastha,
+  },
+  {
+    id: "16",
+    Name: "Anshika Gosh",
+    Designation: "Sports Coordinator",
+    instaLink: "https://www.instagram.com/its_ankshika_?igsh=endzcXJkZjhsYXY4",
+    linkedIn: "https://www.linkedin.com/in/ankshika-ghosh-a7847a285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: anshika,
+  },
+  {
+    id: "17",
+    Name: "Rakesh Bangra",
+    Designation: "Designing Team",
+    instaLink: "https://www.instagram.com/mr_incredible.tx/",
+    linkedIn: "https://www.linkedin.com/in/rakesh-bangra-706b41286",
+    imgPath: rakesh,
+  },
+  {
+    id: "18",
+    Name: "Rupsha Roy",
+    Designation: "Designing Team",
+    instaLink: "https://www.instagram.com/ghxstly_stvrs?igsh=dnp5OWo0cTRseXU=",
+    linkedIn: "https://www.linkedin.com/in/rupsa-roy-487633287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: rupsha,
+  },
+  {
+    id: "19",
+    Name: "Sunanda Mondal",
+    Designation: "Designing Team",
+    instaLink: "https://www.instagram.com/__.sunandaaa.__/",
+    linkedIn: "#",
+    imgPath: sunanda,
+  },
+  {
+    id: "20",
+    Name: "Asshish Jha",
+    Designation: "Logistics and Hospitality",
+    instaLink: "https://www.instagram.com/ismartashish2.0?igsh=MW1keDE5ZDFuMXI0dg==",
+    linkedIn: "https://www.linkedin.com/in/ashish-kumar-jha-332a17288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: ashish,
+  },
+  
+  
+]
 
-
-export const categoryOptions = ["men", "women", "mixed", "open"];
-export const teamTypeOptions = [
-  "100m",
-  "200m",
-  "400m",
-  "800m",
-  "1500m",
-  "5000m",
-  "4x100m",
-  "4x400m",
-  "Team",
-  "Individual",
-  "Long Jump",
-  "Triple Jump",
-  "High Jump",
-  "Discuss Throw",
-  "Javelin Throw",
-  "Shot Put" 
-];
-
-export { events };
+export { events, TeamData };
