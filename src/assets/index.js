@@ -82,6 +82,8 @@ import khush from "./team/khush.jpg"
 import sahil from "./team/sahil.jpg"
 import rounak from "./team/rounak.jpg"
 import pooja from "./team/pooja.jpg"
+import nikunj from "./team/nikunj.jpg"
+import kunal from "./team/kunal.jpg"
 
 
 
@@ -170,5 +172,7 @@ export {
     khush,
     sahil,
     rounak,
-    pooja
+    pooja,
+    nikunj,
+    kunal,
 }

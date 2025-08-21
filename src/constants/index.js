@@ -51,7 +51,9 @@ import {
   sahil,
   khush,
   rounak,
-  pooja
+  pooja,
+  nikunj,
+  kunal,  
 } from "../assets";
 
 // import cricket from "../assets/Sports"
@@ -427,6 +429,22 @@ const TeamData = [
     instaLink: "https://www.instagram.com/_happy.k_.21?utm_source=qr&igsh=c3hvNWo0M2hxMHU5",
     linkedIn: "https://www.linkedin.com/in/pooja-kumari-734b71284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     imgPath: pooja
+  },
+  {
+    id: "26",
+    Name: "Nikunj",
+    Designation: "Organising Team",
+    instaLink: "https://www.instagram.com/nikunjjj_22?igsh=YmFoOXFyb3UwZjY4",
+    linkedIn: "#",
+    imgPath: nikunj
+  },
+  {
+    id: "27",
+    Name: "Kunal",
+    Designation: "Organising Team",
+    instaLink: "https://www.instagram.com/duh.its_kunal_?igsh=bGpiaXQyc2psYWpt",
+    linkedIn: "https://www.linkedin.com/in/kunal-patel-78b29a324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: kunal
   }
 ];
 
