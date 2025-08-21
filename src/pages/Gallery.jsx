@@ -54,7 +54,7 @@ const Gallery = () => {
             <motion.img src={G10} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 8 }} />
             <motion.img src={G11} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 9 }} />
             <motion.img src={G12} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item" style={{ "--position": 10 }} />
-            {/* <img  src="/gallery/G13.jpg" alt="" className="h-[18rem] w-96" /> */}}
+            {/* <img  src="/gallery/G13.jpg" alt="" className="h-[18rem] w-96" /> */}
             {/* <img  src="/gallery/G14.jpg" alt="" className="h-[18rem] w-96" /> */}
             {/* <img  src="/gallery/G15.jpg" alt="" className="h-[18rem] w-96" /> */}
             <motion.img  src={G16} alt="" className="sm:h-[18rem] sm:w-96 w-24 h-24 item"  style={{ "--position": 11 }}/>

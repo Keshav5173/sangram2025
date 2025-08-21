@@ -7,7 +7,7 @@ import tailwindcss from 'tailwindcss';
 
 export default defineConfig({
   plugins: [react(), glsl()],  
-  base: "/sangram2025/",
+  base: "/",
   assetsInclude: ["**/*.glb", "**/*.gltf"],
   resolve: {
     alias: {

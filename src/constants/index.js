@@ -306,7 +306,7 @@ const TeamData = [
     Designation: "Sports Coordinator",
     instaLink: "https://www.instagram.com/saail._.7?igsh=MTZvNDlhZHJsZ2V4aA==",
     linkedIn: "#",
-    imgPath: yogesh
+    imgPath: sahil
   },
   {
     id: "10",

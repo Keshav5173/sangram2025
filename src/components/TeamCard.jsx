@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import * as FaIcons from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const AnimatedProfileCard = ({ imgPath, Name, Designation, instaLink, linkedIn }) => {
   return (
@@ -22,7 +23,8 @@ const AnimatedProfileCard = ({ imgPath, Name, Designation, instaLink, linkedIn }
         <p className='font-bold'>{Designation}</p>
         <ul className="flex justify-center mt-4 space-x-4">
           <li>
-            <a
+            {instaLink && instaLink!=="#" && (
+              <a
               href={instaLink}
               className="text-[#ea4c89] text-2xl hover:text-white dark:hover:text-white"
               target="_blank"
@@ -30,9 +32,11 @@ const AnimatedProfileCard = ({ imgPath, Name, Designation, instaLink, linkedIn }
             >
               <FaIcons.FaInstagram />
             </a>
+            )}
           </li>
           <li>
-            <a
+            {linkedIn && linkedIn!=="#" && (
+              <a
               href={linkedIn}
               className="text-[#3a61b0] text-2xl hover:text-white dark:hover:text-white"
               target="_blank"
@@ -40,6 +44,7 @@ const AnimatedProfileCard = ({ imgPath, Name, Designation, instaLink, linkedIn }
             >
               <FaIcons.FaLinkedin />
             </a>
+            )}
           </li>
         </ul>
       </motion.div>
