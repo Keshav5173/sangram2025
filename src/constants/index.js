@@ -51,6 +51,7 @@ import {
   sahil,
   khush,
   rounak,
+  pooja
 } from "../assets";
 
 // import cricket from "../assets/Sports"
@@ -227,11 +228,10 @@ const events = [
 ];
 
 const TeamData = [
-  // Fest Chief
   {
     id: "1",
     Name: "Yogesh Tapadiya",
-    Designation: "Fest Chief",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/kasamseyogestaparia?igsh=NXMzbTRha2JjaTZr",
     linkedIn: "https://www.linkedin.com/in/yogesh-taparia-a99513282",
     imgPath: yogesh
@@ -239,27 +239,23 @@ const TeamData = [
   {
     id: "2",
     Name: "Akshit Thakur",
-    Designation: "Fest Chief",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/__thakur__00002?igsh=MXhxZ3E0c294eDlzdw==",
     linkedIn: "https://www.linkedin.com/in/akshit-thakur-9922892a0",
     imgPath: akshit
   },
-
-  // Technical Team
   {
     id: "3",
     Name: "Keshav Bhardwaj",
-    Designation: "Technical Team",
+    Designation: "Organising Team",
     instaLink: "#",
     linkedIn: "https://www.linkedin.com/in/keshav-bhardwaj-369019287/",
     imgPath: keshav
   },
-
-  // Design and Creativity
   {
     id: "4",
     Name: "Rakesh Bangra",
-    Designation: "Design and Creativity",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/mr_incredible.tx/",
     linkedIn: "https://www.linkedin.com/in/rakesh-bangra-706b41286",
     imgPath: rakesh,
@@ -267,7 +263,7 @@ const TeamData = [
   {
     id: "5",
     Name: "Rupsha Roy",
-    Designation: "Design and Creativity",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/ghxstly_stvrs?igsh=dnp5OWo0cTRseXU=",
     linkedIn: "https://www.linkedin.com/in/rupsa-roy-487633287",
     imgPath: rupsha,
@@ -275,27 +271,23 @@ const TeamData = [
   {
     id: "6",
     Name: "Sunanda Mondal",
-    Designation: "Design and Creativity",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/__.sunandaaa.__/",
     linkedIn: "#",
     imgPath: sunanda,
   },
-
-  // Logistics and Hospitality
   {
     id: "7",
     Name: "Ashish Jha",
-    Designation: "Logistics and Hospitality",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/ismartashish2.0?igsh=MW1keDE5ZDFuMXI0dg==",
     linkedIn: "https://www.linkedin.com/in/ashish-kumar-jha-332a17288",
     imgPath: ashish,
   },
-
-  // Sports Coordinators
   {
     id: "8",
     Name: "Sayan Mukherjee",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/sayan.nnnm?igsh=MThpdnVxaTN5cjJrag==",
     linkedIn: "#",
     imgPath: sayan
@@ -303,7 +295,7 @@ const TeamData = [
   {
     id: "9",
     Name: "Sahil Mahto",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/saail._.7?igsh=MTZvNDlhZHJsZ2V4aA==",
     linkedIn: "#",
     imgPath: sahil
@@ -311,7 +303,7 @@ const TeamData = [
   {
     id: "10",
     Name: "Khush Joon",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/joon_18khush_?igsh=eHZxNnI2MDdheWo3&utm_source=qr",
     linkedIn: "https://www.linkedin.com/in/khush-joon-05b0742a8",
     imgPath: khush
@@ -319,7 +311,7 @@ const TeamData = [
   {
     id: "11",
     Name: "Rounak Singh",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/rounak_singh_2?igsh=MWt3cGg2MWY2YmQ1cw==",
     linkedIn: "#",
     imgPath: rounak
@@ -327,7 +319,7 @@ const TeamData = [
   {
     id: "12",
     Name: "Shruti Agarwal",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/shhrutiagrawal?igsh=MWVhd3llbzE1d2JqYQ==",
     linkedIn: "https://www.linkedin.com/in/shruti-agarwal-96730a2a8",
     imgPath: shruti
@@ -335,7 +327,7 @@ const TeamData = [
   {
     id: "13",
     Name: "Sakshi Rani",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/sakshirani_9898?igsh=N3VpMHBmM3dhcnEy",
     linkedIn: "https://www.linkedin.com/in/sakshi-rani-982a88327",
     imgPath: sakshi
@@ -343,7 +335,7 @@ const TeamData = [
   {
     id: "14",
     Name: "Ruchi Kumari",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/ruchi2102._?utm_source=qr&igsh=MWRrZHI0bThlaHltZQ==",
     linkedIn: "https://www.linkedin.com/in/ruchi-kumari-745a43329",
     imgPath: ruchi
@@ -351,7 +343,7 @@ const TeamData = [
   {
     id: "15",
     Name: "Uttam Jangid",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/the_uttam_jangid?igsh=MWlmOWtwODBpMm44bw==",
     linkedIn: "https://www.linkedin.com/in/uttam-jangid-33595a268",
     imgPath: uttam
@@ -359,7 +351,7 @@ const TeamData = [
   {
     id: "16",
     Name: "Chetan Yadav",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/chet.an_05?igsh=NG9hYzJrc3cyNmcz",
     linkedIn: "https://www.linkedin.com/in/chetan-yadav-b67173287",
     imgPath: chetan
@@ -367,7 +359,7 @@ const TeamData = [
   {
     id: "17",
     Name: "Rakshit",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/_arpan__pramanik_?utm_source=qr&igsh=MTcyNWVoanlqYnNqdQ==",
     linkedIn: "#",
     imgPath: rakshit
@@ -375,15 +367,15 @@ const TeamData = [
   {
     id: "18",
     Name: "Arpan Pramanik",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/_arpan__pramanik_?utm_source=qr&igsh=MTcyNWVoanlqYnNqdQ==",
     linkedIn: "#",
     imgPath: arpan
   },
   {
     id: "19",
-    Name: "Sayatani Dey",
-    Designation: "Sports Coordinator",
+    Name: "Sayantani Dey",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/sanjh_baati26/",
     linkedIn: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
     imgPath: sayatani
@@ -391,7 +383,7 @@ const TeamData = [
   {
     id: "20",
     Name: "Stuti Modak",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/_._stuti._?igsh=aHVxaW84cGk4aWRs",
     linkedIn: "https://www.linkedin.com/in/stuti-modak-614584286",
     imgPath: stuti
@@ -399,7 +391,7 @@ const TeamData = [
   {
     id: "21",
     Name: "Ishika Haldar",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/invalid_username.404/profilecard/?igsh=dW4xdDlpYzQyZzJ3",
     linkedIn: "https://www.linkedin.com/in/ishika-haldar-b11300289",
     imgPath: ishika,
@@ -407,7 +399,7 @@ const TeamData = [
   {
     id: "22",
     Name: "Shubham Maity",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/duftvonruhe_sm03?igsh=MXJiYWRyOW03YnpkdQ==",
     linkedIn: "#",
     imgPath: shubham,
@@ -415,7 +407,7 @@ const TeamData = [
   {
     id: "23",
     Name: "Aastha Sinha",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/aasthasinha195",
     linkedIn: "https://www.linkedin.com/in/aastha-sinha-21a4b5287",
     imgPath: aastha,
@@ -423,12 +415,21 @@ const TeamData = [
   {
     id: "24",
     Name: "Anshika Gosh",
-    Designation: "Sports Coordinator",
+    Designation: "Organising Team",
     instaLink: "https://www.instagram.com/its_ankshika_?igsh=endzcXJkZjhsYXY4",
     linkedIn: "https://www.linkedin.com/in/ankshika-ghosh-a7847a285",
     imgPath: anshika,
+  },
+  {
+    id: "25",
+    Name: "Pooja",
+    Designation : "Organising Team",
+    instaLink: "https://www.instagram.com/_happy.k_.21?utm_source=qr&igsh=c3hvNWo0M2hxMHU5",
+    linkedIn: "https://www.linkedin.com/in/pooja-kumari-734b71284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    imgPath: pooja
   }
 ];
+
 
 
 export { events, TeamData };

@@ -1,89 +1,87 @@
-export const textVariant = (delay) => {
-    return {
-      hidden: {
-        y: -50,
-        opacity: 0,
+// utils/motion.js
+
+export const textVariant = () => {
+  return {
+    hidden: {
+      y: 20,
+      opacity: 0,
+    },
+    show: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        duration: 0.5, // faster
+        delay: 0,      // no delay
       },
-      show: {
-        y: 0,
-        opacity: 1,
-        transition: {
-          type: "spring",
-          duration: 1.25,
-          delay: delay,
-        },
-      },
-    };
+    },
   };
-  
-  export const fadeIn = (direction, type, delay, duration) => {
-    return {
-      hidden: {
-        x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-        y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-        opacity: 0,
+};
+
+export const fadeIn = (direction = "up", type = "spring", delay = 0, duration = 0.5) => {
+  return {
+    hidden: {
+      x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
+      y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
+      opacity: 0,
+    },
+    show: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      transition: {
+        type,
+        duration: duration, // faster
+        delay: 0,           // removed delay
       },
-      show: {
-        x: 0,
-        y: 0,
-        opacity: 1,
-        transition: {
-          type: type,
-          delay: delay,
-          duration: duration,
-          ease: "easeOut",
-        },
-      },
-    };
+    },
   };
-  
-  export const zoomIn = (delay, duration) => {
-    return {
-      hidden: {
-        scale: 0,
-        opacity: 0,
+};
+
+export const zoomIn = (delay = 0, duration = 0.5) => {
+  return {
+    hidden: {
+      scale: 0,
+      opacity: 0,
+    },
+    show: {
+      scale: 1,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        duration: duration,
+        delay: 0, // removed delay
       },
-      show: {
-        scale: 1,
-        opacity: 1,
-        transition: {
-          type: "tween",
-          delay: delay,
-          duration: duration,
-          ease: "easeOut",
-        },
-      },
-    };
+    },
   };
-  
-  export const slideIn = (direction, type, delay, duration) => {
-    return {
-      hidden: {
-        x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
-        y: direction === "up" ? "100%" : direction === "down" ? "100%" : 0,
+};
+
+export const slideIn = (direction, type = "tween", delay = 0, duration = 0.5) => {
+  return {
+    hidden: {
+      x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
+      y: direction === "up" ? "100%" : direction === "down" ? "-100%" : 0,
+    },
+    show: {
+      x: 0,
+      y: 0,
+      transition: {
+        type,
+        duration: duration,
+        delay: 0, // removed delay
       },
-      show: {
-        x: 0,
-        y: 0,
-        transition: {
-          type: type,
-          delay: delay,
-          duration: duration,
-          ease: "easeOut",
-        },
-      },
-    };
+    },
   };
-  
-  export const staggerContainer = (staggerChildren, delayChildren) => {
-    return {
-      hidden: {},
-      show: {
-        transition: {
-          staggerChildren: staggerChildren,
-          delayChildren: delayChildren || 0,
-        },
+};
+
+export const staggerContainer = (staggerChildren = 0.1, delayChildren = 0) => {
+  return {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: staggerChildren, // small gap only
+        delayChildren: 0,                 // no big wait
       },
-    };
+    },
   };
-  
+};

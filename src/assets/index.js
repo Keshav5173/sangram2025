@@ -81,6 +81,7 @@ import akshit from "./team/akshit.jpg"
 import khush from "./team/khush.jpg"
 import sahil from "./team/sahil.jpg"
 import rounak from "./team/rounak.jpg"
+import pooja from "./team/pooja.jpg"
 
 
 
@@ -169,4 +170,5 @@ export {
     khush,
     sahil,
     rounak,
+    pooja
 }

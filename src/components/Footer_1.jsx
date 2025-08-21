@@ -28,10 +28,7 @@ function Footer_1 () {
             </div>
             <div className='text-gray-100 text-lg'>
               <ul className='text-wrap  text-lg leading-10'>
-              <li className="text-[#d1cbcb] hover:text-yellow-400 transition-colors duration-1000 ease-in-out">
-                {'Yogesh '}
-                <a href="tel:+91 9923932407">+91 9923932407</a>
-            </li>
+              
             <li className="text-[#d1cbcb] hover:text-yellow-400 transition-colors duration-1000 ease-in-out">
                 {'Akshit '}
                 <a href="tel:+91 9317147655">+91 9317147655</a>
@@ -45,6 +42,10 @@ function Footer_1 () {
             <li className="text-[#d1cbcb] hover:text-yellow-400 transition-colors duration-1000 ease-in-out">
               {'Aashish'}
               <a href="tel:+91 8797093015">+91 8797093015</a>
+            </li>
+            <li className="text-[#d1cbcb] hover:text-yellow-400 transition-colors duration-1000 ease-in-out">
+                {'Rakesh '}
+                <a href="tel:+91 9923932407">+91 9887103068</a>
             </li>
 
               </ul>
